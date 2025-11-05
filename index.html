@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MyContract DApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MyContract DApp</h1>
+    <button id="connectButton">🔗 Connect Wallet</button>
+    <p id="account">Not connected</p>
+
+    <h3>Contract message:</h3>
+    <p id="contractMessage">Loading...</p>
+
+    <h3>Add new message:</h3>
+    <input id="newMessage" type="text" placeholder="Enter your message" />
+    <button id="sendButton">Send</button>
+
+    <h3>All messages:</h3>
+    <ul id="messages"></ul>
+
+    <button id="refreshButton">🔄 Refresh Messages</button>
+  </div>
+
+  <!-- ethers.js UMD сборка -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.11.0/ethers.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
