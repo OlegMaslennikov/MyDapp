@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", async () => {
   // ---------- Contract config ----------
-  const contractAddress = "0x5a6E733D9Bc25dD0a5d943F063dB2480a26Bc795"; // Замените на адрес контракта Sepolia
+  const contractAddress = "0x6FF12404338860571239AF710A9584ADC431B5E2"; 
   const contractABI = [
     {
       "inputs": [{"internalType": "string","name": "_message","type": "string"}],
